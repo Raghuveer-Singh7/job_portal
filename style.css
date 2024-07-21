@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+}
+
+#registerformdiv{
+    /* border: 1px solid black; */
+    padding: 2vh;
+}
+#registerform{
+    border: 2px solid black;
+    padding: 2vh;
+    width: 50%;
+    margin-left: 30%;
+    box-shadow: 5px 5px 15px 0px black;
+    height: auto
+}
+
+.inputfield{
+    width: 20vw;
+}
+
+#loginformdiv{
+    /* border: 1px solid black; */
+    padding: 2vh;
+}
+#loginform{
+    border: 2px solid black;
+    padding: 2vh;
+    width: 50%;
+    margin-left: 30%;
+    box-shadow: 5px 5px 15px 0px black;
+}
+
+#submissionstatus{
+    height: 5vh;
+    /* background-color: yellow; */
+    position: absolute;
+}
+
+#recruiterformdiv{
+    /* border: 1px solid black; */
+    padding: 2vh;
+}
+.recruiterformstyling{
+    border: 2px solid black;
+    padding: 2vh;
+    width: 50%;
+    margin-left: 30%;
+    box-shadow: 5px 5px 15px 0px black;
+    height: auto
+}
+.recruitereditformstyling{
+    border: 2px solid black;
+    padding: 2vh;
+    /* width: 50%; */
+    box-shadow: 5px 5px 15px 0px black;
+    height: auto
+}
+
+#jobapplyformdiv{
+    padding: 2vh;
+}
+
+.viewjobpagecandidate{
+    border: 1px solid black;
+}
+
+button#topbutton{
+    background-color: rgba(0, 0, 0, 0.831);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid white;
+    color: white;
+}
+
+button#adminbutton{
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+.spacing{
+/* background-color: aqua; */
+display: inline-block;
+width: 9vw;
+}
+
+.test{
+    background-color: rgb(161, 161, 249);
+}
+
+
+@media screen and (max-width: 600px) {
+
+    *{
+        /* overflow: hidden; */
+        /* border: 1px solid black; */
+    }
+
+/* Register page  */
+
+    #registerformdiv{
+        width: 100%;
+    }
+    #registerform{
+        margin-left: 0;
+        border: 2px solid black;
+        width: 90%;
+        margin-left: 5%;
+        padding: 2vh 2vw;
+        box-shadow: 5px 5px 15px 0px black;
+    }
+    .inputfield{
+        width: 80%;
+    }
+    #submissionstatus{
+        height: 5vh;
+        /* background-color: yellow; */
+        position: absolute;
+    }
+
+/* Login page  */
+    #loginformdiv{
+        width: 100%;
+    }
+    #loginform{
+        margin-left: 0;
+        border: 2px solid black;
+        width: 90%;
+        margin-left: 5%;
+        padding: 2vh 2vw;
+        box-shadow: 5px 5px 15px 0px black;
+    }
+
+/* Recruiter page  */
+    button#topbutton{
+        background-color: rgba(0, 0, 0, 0.831);
+        padding: 8px;
+        text-wrap: nowrap;
+        border-radius: 5px;
+        font-weight: 600;
+        color: white;
+        font-size: 0.8em;
+    }
+    #emptydiv{
+        display: none;
+    }
+    #recruiterformdiv{
+        width: 100%;
+    }
+    #recruiterform{
+        margin-left: 0;
+        border: 2px solid black;
+        width: 90%;
+        margin-left: 5%;
+        padding: 2vh 2vw;
+        box-shadow: 5px 5px 15px 0px black;
+    }
+    /* edit page in recruiter page  */
+    #editjobform{
+        margin-left: 0;
+        border: 2px solid black;
+        width: 90%;
+        margin-left: 5%;
+        padding: 2vh 2vw;
+        box-shadow: 5px 5px 15px 0px black;
+    }
+    .spacing{
+        /* background-color: aqua; */
+        display: inline-block;
+        width: 30%;
+        }
+    .headerbarforpages{
+        padding: 0;
+    }
+    #headinginside{
+        text-align: center;
+    }
+ 
+
+  }
